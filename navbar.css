@@ -1,0 +1,13 @@
+.nav-link:hover{
+    border-bottom: 3px solid rgb(169, 67, 169);
+}
+
+.nav-link{
+    color:rgb(95, 19, 102);
+}
+
+#top{
+    color: rgb(124, 37, 124);
+    border-bottom: 3px solid rgb(169, 67, 169);
+}
+
