@@ -11,10 +11,81 @@
 <link rel="stylesheet" href="./navbar.css">
 </head>
 
-<body>
+<style>
+img{
+    height: 500px;
+    opacity: o.4;
+    
+}
+body{
+    height: 1000px;
+    
+}
+.default-button{
+    background-color:#5e068a;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 20px 40px;
    
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container">
+    margin-right: 790px;
+  }
+.b1{
+   
+    color: #fff;
+    
+    text-align: start;
+    
+    font-weight:600;
+     font-size:50px; 
+    
+    
+}
+.b11{
+    margin-right: 303px;
+ text-align: left;
+   font-size: 18px;
+   margin-bottom: 50px; 
+  
+}
+.slide button{
+    margin-bottom: 90px;
+}
+div input{
+  
+  border: none;
+}
+div textarea{
+   border: none;
+}
+
+.submit{
+   background-color: #5e068a;
+   color: white;
+   border-radius: 4px;
+   width:20%;
+}
+    
+    
+
+
+
+</style>
+
+<body>
+   <nav class="navbar container-fluid"  style=" height:42px; background-color:#5e068a ;">
+  <div class="container">
+    <span class="navbar-text " style="color: white;font-size: 13px; padding: 7px;">
+      Have any question? +91 8086 651 651 
+    </span>
+    <span class="navbar-text " style="color: white;font-size: 13px; padding: 7px; text-align: end;">
+      +91 8086 651 651 contact@luminartechnolab.com
+    </span>
+  </div>
+</nav>
+    <nav class="navbar navbar-expand-lg sticky-top bg-light" >
+        <div class="container" style="height: 80px;">
             <img src="./images/luminarimage.jpg" alt="" style="height: 90px;">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -51,5 +122,106 @@
             </div>
           </div>
         </nav>
+
+
+
+
+
+
+
+
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        
+        <div class="carousel-inner bg-black">
+          <div class="carousel-item active" data-bs-interval="1300">
+            <img src="./images/LuminarCarousal.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block ms-5">
+              <h5 class="b1" >Kerala's No.1 IT Finishing School 
+                <br>
+                 100% Placement Assistance</h5>
+              <p class="b11">We at LUMINAR TECHNOLAB offers best software training and placement in emerging
+                <br>
+                like BIG DATA, Data Science, Machine Learning,PYTHON, <br>
+                Software Testing.</p>
+            
+                <div class="slide button">
+                
+               <button class="default-button">VIEW COURSES</button>
+            </div>
+        </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="100">
+            <img src="./images/LuminarCarousal2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="b1">Data Science, ML & AI 
+                Big Data - Hadoop & Spark 
+                Python Data Science</h1>
+              <p class="b11">We at LUMINAR TECHNOLAB offers best software training and placement in <br>
+                 emerging technologies like BIG DATA, Data Science, Machine <br>
+                 Learning,PYTHON, Software Testing.</p>
+                <div class="slide button">
+                
+               
+                    <button class="default-button">VIEW COURSES</button>
+                  </div>
+            </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content">
+     
+      <div class="modal-body bg-light ">
+        <h1 class="fs-4">Get Training Quote for free</h1>
+        <form action="" >
+        <input type="text" class="form-control border-0 " name="" id="" placeholder="Name"> <hr>
+        <input type="email" class="form-control border-0 "name="" id="" placeholder="Email"> <hr>
+        <input type="text" class="form-control border-0 "name="" id="" placeholder="Phone Number"><hr>
+        <label for="">Select Course intrested in</label>
+        <select name="" id="">
+<option value="" disabled="disabled">Select Course intrested in</option>
+
+<option value="">Data Science - ML-AI- Big Data with Cloud & Tableau</option>
+<option value="">Python Django- Angular-Full Stack Web development Expert</option>
+<option value="">Software Testing Specialist</option>
+<option value="">MEARN Stack Development-Angular & React</option>
+<option value="">Business Analytics-power BI & Tableau</option>
+<option value="">Android Developer Expert Training In Kochi-Flutter</option>
+<option value="">PYTHON-DATA SCIENCE with ML-AL & Tableau</option>
+
+
+          </select>
+<hr>
+          <input type="text"class="form-control border-0 " name="" id="" placeholder="City"> <hr>
+          <textarea class="form-control border-0 "name="" id="" cols="40" rows="3" placeholder="comments"></textarea><br> <hr>
+<button class="submit ">SUBMIT</button>
+</form>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+   
+ </div>
+
 </body>
 </html>
