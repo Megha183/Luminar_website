@@ -1,0 +1,10 @@
+.b11{
+   
+     font-size: 18px;
+}
+
+  @media(max-width:1200px){
+    .b11{
+        font-size: 100px;
+  }
+}
