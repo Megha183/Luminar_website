@@ -1,16 +1,18 @@
-@media(max-width:900px){
+@media(max-width:1000px){
     .captions{
-        margin-left: 90px;
-        margin-top: 30%;
+        margin-left: 80px;
+        margin-top: 10%;
     }
     .b1{
-        font-size:150% ;
+        font-size:30px ;
+       
     }
     .b11{
-        font-size: 90%;
-        text-align: initial;
+        font-size: 20px;
+       
     }
 
 }
+ 
 
 
