@@ -1,22 +1,35 @@
 
-
-@media(max-width:1000px){
+ .b1 {
+    color: #fff;
+   font-size: 50px;
+    }
+      .b11 {
+    font-size: large;
+    color: #fff;
+    }
+   
+.captions {
+margin-top: 100px;
+ margin-left: 450px;
+       }
+@media  (max-width:800px){
     .captions{
-        margin-left: 3%;
+        margin-left: 60px;
         margin-top:30%;
     }
     .b1{
-        font-size:1.4rcm ;
+        font-size:30px ;
        
     }
     .b11{
-        font-size: 1rcm;
-       
+        font-size: 20px;
+        
+    
     }
+    
 
 }
 
- 
 
 
 

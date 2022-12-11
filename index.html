@@ -32,7 +32,7 @@ font-size: 50px;
  }
 
     .b11 {
- font-size: large;
+ font-size: 18px;
  color: #fff;
  }
 
@@ -40,7 +40,16 @@ font-size: 50px;
       margin-top: 100px;
       margin-left: 450px;
     }
-
+.buttons{
+    margin-bottom: 59px;
+     width:177px; 
+     
+}
+.active{
+  background-size: cover; 
+   height: 700px;
+    opacity: o.4;
+}
     div input {
       border: none;
     }
@@ -133,16 +142,34 @@ font-size: 50px;
       margin-top: 20px;
     }
 
-    .b2{
-      border-color: white;
-      border: 2px  #5e068a solid ;
-      border-radius: 20px;
-      color:#5e068a ;
+    .b2 {
+      color: #5e068a;
+      border-radius: 40px;
+      padding: 10px;
     }
 
     .b2:hover {
       background-color: #5e068a;
     }
+
+    @media  (max-width:800px){
+    .captions{
+        margin-left: 60px;
+        margin-top:30%;
+    }
+    .b1{
+        font-size:30px ;
+       
+    }
+    .b11{
+        font-size: 20px;
+        
+    
+    }
+    
+
+}
+
   </style>
 
 <body>
@@ -212,7 +239,7 @@ font-size: 50px;
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner ">
       <div class="carousel-item active" data-bs-interval="1300"
-        style="background-image:url(./images/LuminarCarousal.jpg) ;background-size: cover;height: 600px; opacity: o.4;">
+        style="background-image:url(./images/LuminarCarousal.jpg) ;">
         <div class="content" >
           <div class="captions">
 
@@ -220,20 +247,20 @@ font-size: 50px;
             <p class="b11">We at LUMINAR TECHNOLAB offers best software training and placement in emerging <br>
               like BIG DATA, Data Science, Machine Learning,PYTHON, <br> Software Testing.
             </p>
-            <div class=" buttonnn" style="margin-bottom: 59px; width:177px; ">
+            <div class=" buttonnn" >
               <button class="button2">VIEW COURSES</button>
             </div>
           </div>
         </div>
       </div>
       <div class="carousel-item"
-        style="background-image:url(./images/LuminarCarousal2.jpg) ;background-size: cover;  height: 600px; opacity: o.4;">
+        style="background-image:url(./images/LuminarCarousal2.jpg) ;">
         <div class="content" >
           <div class="captions">
             <h1 class="b1 ">Data Science, ML & AI <br> Big Data - Hadoop & Spark <br> Python Data Science</h1>
             <p class="b11">We at LUMINAR TECHNOLAB offers best software training and placement in <br> emerging
               technologies like BIG DATA, Data Science, Machine <br>Learning,PYTHON, Software Testing.</p>
-            <div class=" buttonnn" style="margin-bottom: 59px; width:177px; ">
+            <div class=" buttonnn" >
               <button class="button2">VIEW COURSES</button>
             </div>
           </div>
