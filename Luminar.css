@@ -1,37 +1,33 @@
 
- .b1 {
-    color: #fff;
-   font-size: 50px;
-    }
-      .b11 {
-    font-size: large;
-    color: #fff;
-    }
    
-.captions {
-margin-top: 100px;
- margin-left: 450px;
+       .captions {
+         margin-top: 100px;
+         margin-left: 450px;
+         animation: anim 2s ease-in-out 1;
        }
-@media  (max-width:800px){
-    .captions{
-        margin-left: 60px;
-        margin-top:30%;
-    }
-    .b1{
-        font-size:30px ;
-       
-    }
-    .b11{
-        font-size: 20px;
+
+       @keyframes anim{
         
-    
-    }
-    
+       
+        50%{
+            margin-top: 100px;
+       }
+       
+       0%{
+        margin-top: 400px;
+      }
+      }
 
-}
+      .card-body:hover{
+        transition: o.5s ease;
+        border: 1px solid #ccc;
+        
+        box-shadow: 0 4px 8px gray,0 6px 20px 0 gray;
+      }
+      
+      .p41:hover{
+        transition: o.5s ease;
+border: 1px solid #ccc;
 
-
-
-
-
-
+box-shadow: 0 4px 8px gray,0 6px 20px 0 gray;
+      }
